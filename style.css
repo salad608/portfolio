@@ -12,7 +12,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--primary);
     color: var(--text-light);
-    align-items: center;
 }
 
 body h1 {
@@ -33,7 +32,7 @@ body p {
     background-color: var(--primary);
     text-align: center;
     font-size: 18;
-    width: 60%;
+    margin: 1rem auto;
 }
 
 nav {
@@ -53,16 +52,15 @@ nav li {
 nav li a {
     color: var(--secondary);
     text-shadow: 1px 1px 2px var(--secondary-dark);
-    font-weight: bold;
     font-size: 24;
 }
 
 img {
-    height: 10%;
-    max-width: 50%;
+    height: 5%;
+    max-width: 25%;
     border: 1rem solid transparent;
     border-radius: 50px;
-    background: linear-gradient(var(--secondary-light), var(--secondary));
+    background: radial-gradient(var(--secondary-light), var(--secondary));
     display: block;
     margin-left: auto;
     margin-right: auto;
