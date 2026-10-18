@@ -11,23 +11,24 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--primary);
+    color: var(--text-light);
 }
 
 body h1 {
     color: var(--text-light);
-    text-shadow: var(--secondary-light);
+    text-shadow: 1px 1px 2px var(--secondary-light);
     text-align: center;
 }
 
 body h2 {
     color: var(--text-light);
-    text-shadow: var(--secondary-light);
+    text-shadow: 1px 1px 2px var(--secondary-light);
     text-align: center;
 }
 
 body p {
     color: var(--primary-light);
-    text-shadow: var(--primary-dark);
+    text-shadow: 1px 1px 2px var(--primary-dark);
     background-color: var(--primary);
 }
 
@@ -47,5 +48,13 @@ nav li {
 
 nav li a {
     color: var(--text-light);
-    text-shadow: var(--secondary-light);
+    text-shadow: 1px 1px 2px var(--secondary-light);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    padding: 1rem;
+    border: 5px solid var(--secondary);
+    border-radius: 10px;
 }
