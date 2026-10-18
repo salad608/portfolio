@@ -59,8 +59,7 @@ img {
     max-width: 50%;
     border: 1rem solid transparent;
     border-radius: 50px;
-    background: radial-gradient(var(--secondary-light), var(--secondary)) padding-box,
-        radial-gradient(to right, var(--secondary-light), var(--secondary)) border-box;
+    background: radial-gradient(var(--secondary-light), var(--secondary));
     display: block;
     margin-left: auto;
     margin-right: auto;
