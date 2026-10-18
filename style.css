@@ -32,7 +32,7 @@ body p {
     background-color: var(--primary);
     text-align: center;
     font-size: 18;
-    margin: 1rem auto;
+    padding-inline: 20%;
 }
 
 nav {
@@ -56,7 +56,7 @@ nav li a {
 }
 
 img {
-    height: 5%;
+    height: 8%;
     max-width: 25%;
     border: 1rem solid transparent;
     border-radius: 50px;
