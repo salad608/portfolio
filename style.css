@@ -32,6 +32,7 @@ body p {
     background-color: var(--primary);
     text-align: center;
     font-size: 14;
+    width: 60%;
 }
 
 nav {
@@ -56,8 +57,10 @@ nav li a {
 img {
     height: 10%;
     max-width: 50%;
-    border: 1rem solid var(--secondary-light);
+    border: 1rem solid transparent;
     border-radius: 50px;
+    background: radial-gradient(var(--secondary-light), var(--secondary)) padding-box,
+        radial-gradient(to right, var(--secondary-light), var(--secondary)) border-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
