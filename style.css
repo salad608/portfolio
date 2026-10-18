@@ -3,26 +3,27 @@
     --primary-light: #ca8b76;
     --primary-dark: #4a2c2a;
     --secondary: #454587;
-    --secondary-light: #6d6dd2;
+    --secondary-light: #9898eb;
     --secondary-dark: #2e2e58;
-    --text-light: aliceblue;
+    --text-light: #add9ff;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--primary);
     color: var(--text-light);
+    align-items: center;
 }
 
 body h1 {
     color: var(--text-light);
-    text-shadow: 1px 1px 2px var(--secondary-light);
+    text-shadow: 2px 2px 4px var(--secondary-light);
     text-align: center;
 }
 
 body h2 {
     color: var(--text-light);
-    text-shadow: 1px 1px 2px var(--secondary-light);
+    text-shadow: 2px 2px 4px var(--secondary-light);
     text-align: center;
 }
 
@@ -30,10 +31,12 @@ body p {
     color: var(--primary-light);
     text-shadow: 1px 1px 2px var(--primary-dark);
     background-color: var(--primary);
+    text-align: center;
+    font-size: 14;
 }
 
 nav {
-    background-color: var(--primary-light);
+    background-color: linear-gradient(var(--primary-light), var(--secondary-light));
     align-items: center;
     padding: 1rem 2rem;
     width: 80%;
@@ -52,9 +55,8 @@ nav li a {
 }
 
 img {
-    height: 50%;
-    max-width: 80%;
-    padding: 1rem;
-    border: 5px solid var(--secondary-light);
-    border-radius: 10px;
+    height: 20%;
+    max-width: 50%;
+    border: 1rem solid var(--secondary-light);
+    border-radius: 50px;
 }
