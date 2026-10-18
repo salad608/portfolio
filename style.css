@@ -1,0 +1,38 @@
+:root {
+    --primary: #693f3c;
+    --primary-light: #ca8b76;
+    --primary-dark: #4a2c2a;
+    --secondary: #454587;
+    --secondary-light: #6d6dd2;
+    --secondary-dark: #2e2e58;
+    --text-light: aliceblue;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body h1 {
+    color: var(--secondary-light);
+    text-shadow: var(--secondary-dark);
+    background-color: var(--primary);
+}
+
+body p {
+    color: var(--primary-light);
+    text-shadow: var(--primary-dark);
+    background-color: var(--primary);
+}
+
+nav {
+    background-color: var(--primary-light);
+    color: var(--text-light);
+    text-shadow: var(--secondary-light);
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav li {
+    display: flex;
+    list-style: none;
+}
