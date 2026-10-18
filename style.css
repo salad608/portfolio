@@ -10,12 +10,19 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: var(--primary);
 }
 
 body h1 {
-    color: var(--secondary-light);
-    text-shadow: var(--secondary-dark);
-    background-color: var(--primary);
+    color: var(--text-light);
+    text-shadow: var(--secondary-light);
+    text-align: center;
+}
+
+body h2 {
+    color: var(--text-light);
+    text-shadow: var(--secondary-light);
+    text-align: center;
 }
 
 body p {
@@ -26,13 +33,19 @@ body p {
 
 nav {
     background-color: var(--primary-light);
-    color: var(--text-light);
-    text-shadow: var(--secondary-light);
     align-items: center;
     padding: 1rem 2rem;
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 50px;
 }
 
 nav li {
     display: flex;
     list-style: none;
+}
+
+nav li a {
+    color: var(--text-light);
+    text-shadow: var(--secondary-light);
 }
