@@ -1,6 +1,6 @@
 :root {
     --primary: #693f3c;
-    --primary-light: #ca8b76;
+    --primary-light: #e5ab97;
     --primary-dark: #4a2c2a;
     --secondary: #454587;
     --secondary-light: #9898eb;
@@ -12,6 +12,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--primary);
     color: var(--text-light);
+    align-items: center;
 }
 
 body h1 {
@@ -31,7 +32,7 @@ body p {
     text-shadow: 1px 1px 2px var(--primary-dark);
     background-color: var(--primary);
     text-align: center;
-    font-size: 14;
+    font-size: 18;
     width: 60%;
 }
 
@@ -50,8 +51,10 @@ nav li {
 }
 
 nav li a {
-    color: var(--text-light);
-    text-shadow: 1px 1px 2px var(--secondary-light);
+    color: var(--secondary);
+    text-shadow: 1px 1px 2px var(--secondary-dark);
+    font-weight: bold;
+    font-size: 24;
 }
 
 img {
@@ -59,7 +62,7 @@ img {
     max-width: 50%;
     border: 1rem solid transparent;
     border-radius: 50px;
-    background: radial-gradient(var(--secondary-light), var(--secondary));
+    background: linear-gradient(var(--secondary-light), var(--secondary));
     display: block;
     margin-left: auto;
     margin-right: auto;
