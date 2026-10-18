@@ -12,7 +12,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: var(--primary);
     color: var(--text-light);
-    align-items: center;
 }
 
 body h1 {
@@ -36,7 +35,7 @@ body p {
 }
 
 nav {
-    background-color: linear-gradient(var(--primary-light), var(--secondary-light));
+    background: linear-gradient(var(--primary-light), var(--secondary-light));
     align-items: center;
     padding: 1rem 2rem;
     width: 80%;
@@ -55,8 +54,11 @@ nav li a {
 }
 
 img {
-    height: 20%;
+    height: 10%;
     max-width: 50%;
     border: 1rem solid var(--secondary-light);
     border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
