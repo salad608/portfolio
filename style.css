@@ -56,8 +56,8 @@ nav li a {
 }
 
 img {
-    height: 8%;
-    max-width: 25%;
+    height: 10%;
+    max-width: 50%;
     border: 1rem solid transparent;
     border-radius: 50px;
     background: radial-gradient(var(--secondary-light), var(--secondary));
