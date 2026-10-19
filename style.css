@@ -53,6 +53,8 @@ nav ul {
 }
 
 nav li a {
+    display: block;
+    text-align: center;
     color: var(--secondary);
     text-shadow: 1px 1px 2px var(--secondary-dark);
     font-size: 24;
