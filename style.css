@@ -44,9 +44,12 @@ nav {
     border-radius: 50px;
 }
 
-nav li {
+nav ul {
     display: flex;
     list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
 }
 
 nav li a {
